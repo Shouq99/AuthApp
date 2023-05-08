@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:background="@color/black">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="message"
+        android:textColorHint="#E8E2E2"
+        android:textColor="#E8E2E2"
+        />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="411dp"
+        android:layout_height="370dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+
+
+        <Button
+            android:id="@+id/setbtn"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/white"
+            android:text="SET" />
+
+        <Button
+            android:id="@+id/cancelbtn"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="CANCEL"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@id/setbtn"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

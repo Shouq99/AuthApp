@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "50892302026",
+    "project_id": "alarm-9faff",
+    "storage_bucket": "alarm-9faff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50892302026:android:e4ed1e51f30508d10f7633",
+        "android_client_info": {
+          "package_name": "com.example.authapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50892302026-ikrh2fjl05obpfca28o6k8fdtsu8s3t3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrY7n6zJOmY6xKW5RlUSQiPEW8ZQWcibU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50892302026-ikrh2fjl05obpfca28o6k8fdtsu8s3t3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
